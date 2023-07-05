@@ -1,0 +1,268 @@
+/* ****************************************** */
+/* ================CSS FOR NAVBAR========== */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #06182d;
+    padding-top: 6px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    transition: background-color 0.6s;
+    z-index: 1000;
+}
+
+
+nav:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+nav .logo {
+    float: left;
+    margin-left: 30px;
+    display: flex;
+    flex-flow: row;
+    color: aliceblue;
+    align-items: center;
+    font-family: cursive;
+}
+nav ul {
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 8px 15px;
+    transition: color 0.3s;
+}
+
+@media (min-width:941px) {
+    .menu .list a {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #fff;
+        margin-right: 0px;
+        transition: border 0.3s ease;
+    }
+
+    .menu .list a:hover {
+        border-top: 2px solid #fff;
+        border-left: 2px solid #fff;
+        border-right: 2px solid #fff;
+        border-bottom: 2px solid transparent;
+    }
+
+    .menu li ul li a:hover {
+        border: none;
+    }
+}
+
+nav ul ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 0.3s;
+}
+
+nav ul li:hover>ul {
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+}
+
+nav ul ul li {
+    position: relative;
+    margin: 0px;
+    width: 150px;
+    float: none;
+    display: list-item;
+    text-align: left;
+    background: #06182d;
+}
+
+nav.sticky-nav ul ul li {
+    background: #0D335D;
+}
+
+nav ul ul li a {
+    line-height: 40px;
+}
+
+.show,
+input {
+    display: none;
+}
+
+.icon {
+    display: none;
+}
+
+@media (max-width:941px) {
+    nav {
+        background: #06182d;
+        padding-bottom: 10px;
+        flex-direction: column;
+    }
+
+    nav ul li,
+    nav ul ul li {
+        display: block;
+        width: 100%;
+    }
+
+    nav ul ul {
+        top: 70px;
+        position: static;
+        border-top: none;
+        float: none;
+        display: none;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    nav ul ul li {
+        padding-left: 60px;
+        line-height: 70px;
+        background: transparent;
+    }
+
+    nav ul ul li:hover {
+        border: none;
+    }
+
+
+    .show {
+        display: block;
+        color: white;
+        font-size: 18px;
+        padding: 0 20px;
+        line-height: 70px;
+        cursor: pointer;
+        transition: color 0.3s;
+    }
+
+    .icon {
+        display: block;
+        color: white;
+        position: absolute;
+        right: 40px;
+        line-height: 70px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    nav ul li:hover {
+        border-bottom: none;
+    }
+
+    .show+a,
+    nav ul{
+        display:none;
+    }
+
+    [id=about]:checked+ul,
+    [id=bars]:checked+ul {
+        display: block;
+    }
+}
+/* ************************************************* */
+/* ================CSS FOR NAVBAR END HERE========== */
+
+
+/************************************************/
+/* ================CSS FOR FOOTER========== */
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #06182d;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+footer .logo-and-contact {
+    width: 94%;
+    margin: 3%;
+    margin-bottom: 13px;
+    height: auto;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+footer .logo-and-contact .logo {
+    padding: 20px;
+    height: 310px;
+}
+
+footer .logo-and-contact .contact-location {
+    padding: 20px;
+    padding-top: 40px;
+    height: 310px;
+}
+
+footer .logo-and-contact .google-location {
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .social-copyright {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 160px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .social-copyright .social-buttons {
+    margin: 20px;
+}
+
+.social-buttons a {
+    margin: 5px;
+    padding: 7px;
+    border: 1px solid white;
+    border-radius: 18px;
+    transition: all 0.5s ease;
+}
+
+.social-buttons a .fa {
+    color: white;
+    font-size: 16px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social-buttons a:hover {
+    background-color: white;
+    color: #06182d;
+}
+
+.social-buttons a:hover .fa {
+    color: #06182d;
+}
+/* ************************************************* */
+/* ================CSS FOR FOOTER END HERE========== */
