@@ -18,7 +18,7 @@ nav {
 }
 
 nav.sticky-nav {
-    background-color: #300030;
+    background: linear-gradient(to right,#800080,#5D3FD3);
 }
 
 nav:after {
@@ -102,11 +102,11 @@ nav ul ul li {
     float: none;
     display: list-item;
     text-align: left;
-    background: #300030;
+    background: #702963;
 }
 
 nav.sticky-nav ul ul li {
-    background: #100030;
+    background: #702963;
 }
 
 nav ul ul li a {
@@ -124,7 +124,7 @@ input {
 
 @media (max-width:941px) {
     nav {
-        background: #300030;
+        background: linear-gradient(to right,#800080,#5D3FD3);
         padding-bottom: 10px;
         flex-direction: column;
         margin-right: 0;
@@ -339,7 +339,7 @@ input {
 
     .back_video {
         width: 100vw;
-        height: 545px;
+        height: 645px;
         position: absolute;
         right: 0;
         bottom: 0;
@@ -353,7 +353,7 @@ input {
 footer {
     width: 100%;
     height: auto;
-    background-color: #300030;
+    background: linear-gradient(to right,#800080,#5D3FD3);
     color: white;
     font-family: "Montserrat", sans-serif;
 }
@@ -399,11 +399,11 @@ footer .logo-and-contact .contact-location {
 
 .social-buttons a:hover {
     background-color: white;
-    color: #300030;
+    color: #702963;
 }
 
 .social-buttons a:hover .fa {
-    color: #300030;
+    color: #702963;
 }
 
 .copyright-text {
@@ -422,13 +422,13 @@ img {
 }
 
 .bg-purple {
-    background-color: #6f42c1 !important;
+    background-color: #702963 !important;
 }
 
 .shadow-m {
-    box-shadow: 5px 5px #a680ec;
+    box-shadow: 5px 5px #702963;
 }
 
 .bg-purple-m {
-    background-color: #a680ec !important;
+    background-color: #702963 !important;
 }
