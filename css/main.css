@@ -231,13 +231,13 @@ input {
 }
 .cardd:hover{
     .card-image{
-        background-image: url('images/cricket.jpg');
+        background-image: url('../images/cricket.jpg');
         background-size: cover;
     }
     scale: 1.07;
 }
 .card-image{
-    background-image: url('images/chess.jpg');
+    background-image: url('../images/chess.jpg');
     height: 173px;
     width: 241px;
     border-radius: 10px;
@@ -332,3 +332,15 @@ footer .logo-and-contact .contact-location {
 }
 /* ************************************************* */
 /* ================CSS FOR FOOTER END HERE========== */
+img{
+    height: 195px
+}
+.bg-purple{
+    background-color:#6f42c1 !important; 
+}
+.shadow-m{
+    box-shadow: 5px 5px #a680ec;
+}
+.bg-purple-m{
+    background-color:#a680ec !important; 
+}

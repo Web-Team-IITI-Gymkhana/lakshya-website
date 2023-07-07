@@ -139,7 +139,7 @@ img {
   background-color: rgba(0, 0, 0, 0.9);
   position: relative;
   
-  background-image: url("about_us_bgimage.jpg");
+  background-image: url("../images/about_us_bgimage.jpg");
   background-size: cover; /* Adjust the background image size */
   background-position: center;
   background-repeat: no-repeat;
