@@ -1,3 +1,7 @@
+body{
+    margin:0;
+}
+
 /* ****************************************** */
 /* ================CSS FOR NAVBAR========== */
 nav {
@@ -186,6 +190,7 @@ input {
 /* ================CSS FOR NAVBAR END HERE========== */
 
 
+
 /************************************************/
 /* ================CSS FOR CARDS========== */
 
@@ -198,6 +203,7 @@ input {
     align-content: space-evenly;
     align-items: center;
     margin: 10px;
+    padding-top: 100px;
     font-family: 'Ysabeau SC', sans-serif;
     font-weight: bold;
 }
@@ -221,9 +227,10 @@ input {
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 28px;
-    background: linear-gradient(45deg, rgba(89,134,0,1) 9%, rgba(141,240,7,1) 39%, rgba(0,212,255,1) 91%);
+    background: #0D335D;;
+    color: white;
     height: 282px;
     width: 260px;
     text-align: center;
@@ -249,15 +256,18 @@ input {
     padding: 5px;
 }
 .register-btn{
-    color: white;
+    color: #0D335D;
     font-size: 20px;
-    background-color: rgb(7, 72, 235);
+    background-color:white;
     outline: none;
-    border: 3px solid black;
-    border-radius: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
     padding: 7px;
+    transition: 0.2s;
+
 }
 .register-btn:hover{
+    color:white;
     background-color:  rgb(0, 55, 193);
 }
 
