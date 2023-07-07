@@ -3,32 +3,7 @@
 /* font-family: 'Abril Fatface', cursive;
 font-family: 'Playfair Display', serif; */
 
-.Main_Video{
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(rgba(12,3,51,0.4),rgba(12,3,51,0.4));
-  position: relative;
-  padding: 0.5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.main_video_content{
-  text-align: center;
-}
-.main_video_content h1{
-  font-size: 160px;
-  color: #fff;
-  font-weight: 600;
-}
-.back_video{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-
-}
 
 /* @media (min-aspect-ratio:16/9){
   .back_video{
