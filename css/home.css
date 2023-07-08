@@ -1,5 +1,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display&display=swap");
 
+
+/* *********************************************** */
+/* =================CSS CODE FOR MAIN VIDIO========== */
+
+.Main_Video {
+  width: 100%;
+  height:600px;
+  position: relative;
+  /* padding: 0.5%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.main_video_content {
+  text-align: center;
+}
+
+.main_video_content h1 {
+  font-size: 15VW;
+  color: #efebef;
+  font-weight: 580;
+}
+
+.back_video {
+  height: 600px;
+  width:auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  filter: brightness(60%);
+}
+
+@media (min-width:941px) {
+  .Main_Video {
+      width: 100%;
+      height:545px;
+      position: relative;
+      /* padding: 0.5%; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+  }
+
+  .back_video {
+      width: 100vw;
+      height: 645px;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+      
+  }
+}
+/* ================================ */
+/* CSS CODE OF MAIN VIDEO END HERE */
+
+
+
+
 /* font-family: 'Abril Fatface', cursive;
 font-family: 'Playfair Display', serif; */
 
@@ -19,6 +82,8 @@ font-family: 'Playfair Display', serif; */
   }
 } */
 
+
+
 .wrapper {
   display: flex;
   justify-content: center; /* Horizontally center the span */
@@ -35,7 +100,7 @@ font-family: 'Playfair Display', serif; */
   margin: 20px 30px;
 }
 
-span {
+.wrapper span{
   display: block;
   padding: 25px 80px;
 }
@@ -50,8 +115,8 @@ span {
   background: #fff;
 }
 
-span::before,
-span::after {
+.wrapper span::before,
+.wrapper span::after {
   content: "";
   width: 2px;
   height: 0;
@@ -92,14 +157,14 @@ span::after {
 }
 
 .wrapper {
-  background-color:rgb(77, 13, 99,0.5);
+  background-color:rgb(77, 13, 99,0.8);
   border-radius: 10px;
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   margin: 40px 20px;
 }
-img {
+.wrapper img {
   filter: invert(100%);
 }
 .grid_stats {
@@ -110,25 +175,21 @@ img {
   flex-wrap: wrap;
 }
 .About_us {
-
-  background-color: rgba(0, 0, 0, 0.9);
   position: relative;
-  
   background-image: url("../images/about_us_bgimage.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
   background-size: cover; /* Adjust the background image size */
   background-position: center;
   background-repeat: no-repeat;
   font-size: 20px;
-  /* width: 100%;
-  height: 100vh; */
+  font-family: "Montserrat", sans-serif;
   position: relative;
   padding: 0.5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  /* margin: 0px 150px; */
 }
 
 /* .About_us::before {
@@ -153,10 +214,11 @@ img {
   margin: 0px 50px;
 }
 .About_us h2 {
-  font-family: "Abril Fatface", cursive;
+  font-family: "Montserrat", sans-serif;
   color: white;
   text-align: center;
-  font-size: 55px;
+  font-size: 50px;
+  margin-top: 20px;
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------- */
