@@ -231,13 +231,13 @@ input {
 }
 .cardd:hover{
     .card-image{
-        background-image: url('images/cricket.jpg');
+        background-image: url('../images/cricket.jpg');
         background-size: cover;
     }
     scale: 1.07;
 }
 .card-image{
-    background-image: url('images/chess.jpg');
+    background-image: url('../images/chess.jpg');
     height: 173px;
     width: 241px;
     border-radius: 10px;
@@ -276,56 +276,33 @@ footer {
     font-family: "Montserrat", sans-serif;
 }
 
+
 footer .logo-and-contact {
-    width: 94%;
     margin: 3%;
     margin-bottom: 13px;
     height: auto;
     border-bottom: 1px solid white;
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
 }
 
 footer .logo-and-contact .logo {
     padding: 20px;
-    height: 310px;
 }
 
 footer .logo-and-contact .contact-location {
     padding: 20px;
     padding-top: 40px;
-    height: 310px;
 }
-
-footer .logo-and-contact .google-location {
-    margin-left: 3%;
-    margin-right: 3%;
-    height: 310px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.social-buttons{
+    text-align: end;
+    padding-right: 20px;
 }
-
-footer .social-copyright {
-    display: flex;
-    flex-flow: column;
-    width: 100%;
-    height: 160px;
-    justify-content: center;
-    align-items: center;
-}
-
-footer .social-copyright .social-buttons {
-    margin: 20px;
-}
-
 .social-buttons a {
     margin: 5px;
     padding: 7px;
     border: 1px solid white;
     border-radius: 18px;
     transition: all 0.5s ease;
+    
 }
 
 .social-buttons a .fa {
@@ -344,5 +321,26 @@ footer .social-copyright .social-buttons {
 .social-buttons a:hover .fa {
     color: #06182d;
 }
+
+.copyright-text {
+    text-align: left;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 25px 0px;
+}
 /* ************************************************* */
 /* ================CSS FOR FOOTER END HERE========== */
+img{
+    height: 195px
+}
+.bg-purple{
+    background-color:#6f42c1 !important; 
+}
+.shadow-m{
+    box-shadow: 5px 5px #a680ec;
+}
+.bg-purple-m{
+    background-color:#a680ec !important; 
+}
