@@ -1,3 +1,6 @@
+html {
+    margin: 0;
+}
 /* ****************************************** */
 /* ================CSS FOR NAVBAR========== */
 nav {
@@ -5,15 +8,17 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background: #06182d;
     padding-top: 6px;
     padding-left: 10px;
     display: flex;
     justify-content: space-between;
-    transition: background-color 0.6s;
+    transition: background-color 1s;
     z-index: 1000;
 }
 
+nav.sticky-nav {
+    background: linear-gradient(to right,#800080,#5D3FD3);
+}
 
 nav:after {
     content: '';
@@ -22,20 +27,23 @@ nav:after {
 }
 
 nav .logo {
+    width: 50%;
     float: left;
-    margin-left: 30px;
+    margin-left: 15px;
     display: flex;
     flex-flow: row;
     color: aliceblue;
     align-items: center;
     font-family: cursive;
 }
+
 nav ul {
     float: right;
     list-style: none;
     margin-right: 40px;
     position: relative;
 }
+
 nav ul li {
     display: inline-block;
     margin: 0;
@@ -55,7 +63,7 @@ nav ul li a {
     .menu .list a {
         border: 2px solid transparent;
         border-bottom: 2px solid #fff;
-        margin-right: 0px;
+        margin-right: 36px;
         transition: border 0.3s ease;
     }
 
@@ -94,11 +102,11 @@ nav ul ul li {
     float: none;
     display: list-item;
     text-align: left;
-    background: #06182d;
+    background: #702963;
 }
 
 nav.sticky-nav ul ul li {
-    background: #0D335D;
+    background: #702963;
 }
 
 nav ul ul li a {
@@ -110,17 +118,19 @@ input {
     display: none;
 }
 
-.icon {
+nav .icon {
     display: none;
 }
 
 @media (max-width:941px) {
     nav {
-        background: #06182d;
+        width: 100%;
+        background: linear-gradient(to right,#800080,#5D3FD3);
         padding-bottom: 10px;
         flex-direction: column;
+        margin-right: 0;
     }
-
+    
     nav ul li,
     nav ul ul li {
         display: block;
@@ -148,7 +158,7 @@ input {
     }
 
 
-    .show {
+    nav .show {
         display: block;
         color: white;
         font-size: 18px;
@@ -158,11 +168,12 @@ input {
         transition: color 0.3s;
     }
 
-    .icon {
+    nav .icon {
+        width:50%;
         display: block;
         color: white;
         position: absolute;
-        right: 40px;
+        padding-left:90%;
         line-height: 70px;
         font-size: 25px;
         cursor: pointer;
@@ -173,8 +184,8 @@ input {
     }
 
     .show+a,
-    nav ul{
-        display:none;
+    nav ul {
+        display: none;
     }
 
     [id=about]:checked+ul,
@@ -182,111 +193,6 @@ input {
         display: block;
     }
 }
+
 /* ************************************************* */
 /* ================CSS FOR NAVBAR END HERE========== */
-
-
-/************************************************/
-/* ================CSS FOR CARDS========== */
-
-.cards{
-    display: grid;
-    grid-template-columns: repeat(4,25%);
-    grid-row-gap: 50px;
-    justify-content: space-evenly;
-    justify-items: center;
-    align-content: space-evenly;
-    align-items: center;
-    margin: 10px;
-    font-family: 'Ysabeau SC', sans-serif;
-    font-weight: bold;
-}
-@media screen and (max-width: 1150px) {
-    .cards {
-        grid-template-columns: repeat(3,33%);
-    }
-}
-@media screen and (max-width: 900px) {
-    .cards {
-        grid-template-columns: repeat(2,50%);
-    }
-}
-@media screen and (max-width: 600px) {
-    .cards {
-        grid-template-columns: repeat(1,100%);
-    }
-}
-.cardd{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 28px;
-    background: linear-gradient(45deg, rgba(89,134,0,1) 9%, rgba(141,240,7,1) 39%, rgba(0,212,255,1) 91%);
-    height: 282px;
-    width: 260px;
-    text-align: center;
-    transition-duration: 0.2s;
-}
-.cardd:hover{
-    .card-image{
-        background-image: url('../images/cricket.jpg');
-        background-size: cover;
-    }
-    scale: 1.07;
-}
-.card-image{
-    background-image: url('../images/chess.jpg');
-    height: 173px;
-    width: 241px;
-    border-radius: 10px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    transition-duration: 0.2s;
-}
-.card-name{
-    padding: 5px;
-}
-.register-btn{
-    color: white;
-    font-size: 20px;
-    background-color: rgb(7, 72, 235);
-    outline: none;
-    border: 3px solid black;
-    border-radius: 10px;
-    padding: 7px;
-}
-.register-btn:hover{
-    background-color:  rgb(0, 55, 193);
-}
-
-
-/* ************************************************* */
-/* ================CSS FOR CARDS END HERE========== */
-
-
-
-
-
-
-
-
-
-
-
-img {
-    height: 195px
-}
-
-.bg-purple {
-    background-color: #702963 !important;
-}
-
-.shadow-m {
-    box-shadow: 5px 5px #702963;
-}
-
-.bg-purple-m {
-    background-color: #702963 !important;
-}
