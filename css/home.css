@@ -308,10 +308,8 @@ opacity: 0.6;
 /* ================CSS FOR CARDS========== */
 
 .cards{
-  /* background: linear-gradient(90deg, rgb(191, 6, 205), rgb(58,12,85)); */
-  background: linear-gradient(45deg,rgb(191,71,205), rgb(58,12,85));
-  /* background-image: url("images/Runner.png"); */
-  /* background: url(http://s14.postimage.org/nitv9x7ct/top_Arrow.png) no-repeat left center #b21f23; */
+  /* background: linear-gradient(45deg,rgb(191,71,205), rgb(58,12,85)); */
+  background: linear-gradient(to right, #BF47CD, #3a0c55);
   display: grid;
   grid-template-columns: repeat(4,25%);
   grid-row-gap: 50px;
@@ -320,6 +318,7 @@ opacity: 0.6;
   align-content: space-evenly;
   align-items: center;
   padding: 20px;
+  color: white;
   font-weight: bold;
 }
 @media screen and (max-width: 1150px) {
@@ -344,8 +343,9 @@ opacity: 0.6;
   padding: 10px;
   border-radius: 10px;
   font-size: 28px;
-  /* background: linear-gradient(45deg, rgba(89,134,0,1) 9%, rgba(141,240,7,1) 39%, rgba(0,212,255,1) 91%); */
-  background: linear-gradient(45deg,rgb(191,71,205,0.8), rgb(58,12,85,0.8));
+  /* background: linear-gradient(45deg,rgb(191,71,205,0.8), rgb(58,12,85,0.8)); */
+  background-color: rgb(77, 13, 99,0.8);
+  background-color: rgba(55, 32, 49, 0.5);
   height: 282px;
   width: 260px;
   text-align: center;
@@ -387,6 +387,7 @@ opacity: 0.6;
 }
 .register-btn:hover{
   background-color:  rgb(0, 55, 193);
+  box-shadow: 3px 3px 3px rgb(7, 72, 235);
 }
 
 /* ************************************************* */
