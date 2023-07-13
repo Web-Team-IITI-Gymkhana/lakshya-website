@@ -16,6 +16,15 @@ function navigate(event){
     var target = document.getElementById(event.target("a").getAttribute("href").replace("#",""));
     //add class "active" to the target
     target.classList.add("active");
+    // //scroll to 
+    // var slide = Element.getElementById("#slide")
+    // console.log(slide); 
+    // slide.scrollIntoView({ block: 'start',  behavior: 'smooth' });
     event.preventDefault();
     //prevent default link behaviour
   }
+
+// function scrollToSlide(elementId){
+//     var element = document.getElementById(elementId);
+//     element.scrollIntoView({ block: 'start',  behavior: 'smooth' });
+// }

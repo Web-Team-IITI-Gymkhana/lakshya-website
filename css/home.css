@@ -288,10 +288,8 @@ filter: grayscale(100%);
   height:85vh;
   /* margin: 50px; */
   display: flex;
-  align-items: center;
+  align-items: stretch;
   position: relative;
-  overflow: hidden;
-
 }
 
 .image-slider{
