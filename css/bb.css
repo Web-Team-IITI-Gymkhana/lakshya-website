@@ -7,7 +7,7 @@
 body {
     height: 100vh;
     /* text-align: center; */
-    background: url('./bbbg.png') no-repeat center center/ cover fixed;
+    background: url('../images/bbbg.png') no-repeat center center/ cover fixed;
   
 }
 .heading{

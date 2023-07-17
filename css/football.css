@@ -7,7 +7,7 @@
 body {
     height: 100vh;
     /* text-align: center; */
-    background: url('./fbbg.png') no-repeat center center/ cover fixed;
+    background: url('../images/fbbg.png') no-repeat center center/ cover fixed;
   
 }
 .heading{
