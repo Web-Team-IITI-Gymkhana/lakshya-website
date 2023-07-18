@@ -1,0 +1,187 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato','sans-serif';
+}
+body {
+    height: 100vh;
+    /* text-align: center; */
+    /* Background Image needs to be corrected */
+    background: url('../images/bbbg.png') no-repeat center center/ cover fixed;
+  
+}
+.sportname{
+    text-align: center;
+    color: rgb(236, 169, 230);
+    margin-top: 10%;
+}
+.rulebookdiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    /* background-color: linear-gradient( to right , cyan,indigo); */
+    
+
+}
+.rulebook{
+    /* background-color: rgb(236, 169, 230); */
+    background: linear-gradient( to right ,purple,indigo,indigo,purple);
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    color: #fff;
+    width: 140px;
+    border: solid 1px rgb(236, 169, 230);
+    padding:2px 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+.rulebook:hover{
+    /* box-shadow: 1px 1px 1px 1px rgb(236, 169, 230); */
+    box-shadow: 1px 1px rgb(236, 169, 230);
+}
+.subcategory{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-top: 5%;
+    z-index: -1;
+   
+}
+.track{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 3%;
+  padding: 10px;
+  background-color: rgb(128,0,128,0.3);
+  
+  z-index: 1;
+}
+.field{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* border: solid 1px white; */
+    width: 95%;
+    margin: 3%;
+    padding: 10px;
+    background-color: rgb(128,0,128,0.3);
+    z-index: 1;
+}
+.combine{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* border: solid 1px white; */
+    width: 95%;
+    margin: 3%;
+    padding: 10px;
+    background-color: rgb(128,0,128,0.3);
+    z-index: 1;
+}
+.subgames{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sprint100m,.sprint200m,.sprint400m,.hurdels400m,.relay4400,.longjump,.triplejump,.highjump,.polevault,.shortput,.discusthrow,.javelinthrow,.hammerthrow,.decathlon,.heptathlon,.marathon{
+    width: 300px;
+    height: 130px;
+    border: solid 1px rgb(236, 169, 230);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.name{
+    color: #fff;
+    position: absolute;
+    margin: 10px;
+}
+.medal{
+    position: relative;
+    left: 268px;
+    top: 15px;
+    bottom: 0px;
+    color:gold;
+
+}
+.register{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    bottom: 0px;
+    top: 60px;
+    color: rgb(236, 169, 230);
+    
+}
+.register a{
+    border: solid 1px rgb(236, 169, 230);
+    padding: 0px 10px;
+    border-radius: 5px;
+    margin: 0 10px;
+
+}
+.view{
+    position: relative;
+    color: white;
+    margin-top: 30px;
+    left:230px;
+    width: 35px;
+    /* border: solid 1px white; */
+    cursor: pointer;
+
+}
+.view:hover{
+   color: rgb(236, 169, 230);
+}
+
+/* .track::after{
+    content: "";
+    width: 55%;
+    height: 60%;
+    border:solid 1px #fff;
+    padding: 10px;
+    z-index: 0;
+    position: absolute;
+    background-color: rgb(122, 58, 179);
+} */
+.viewarea{
+    display: flex;
+    justify-content: space-evenly;
+}
+.track1view,.fieldview,.combineview{
+    width: 56%;
+    border:solid 1px #fff;
+    padding: 10px;
+    position: absolute;
+    z-index: 100000;
+    background-color: rgb(18, 3, 38);
+    margin:5px 22%;
+    color: white;
+    
+}
+.track1viewhidden,.fieldviewhidden,.combineviewhidden{
+    display: none;
+}
+
+@media screen and (max-width:580px) {
+    .track1view,.fieldview,.combineview{
+        width: 80%;
+        margin:5px 10%;
+    }
+}
+
+
+  

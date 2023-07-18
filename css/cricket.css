@@ -1,0 +1,85 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato','sans-serif';
+}
+body {
+    height: 100vh;
+    /* text-align: center; */
+    background: url('../images/cricketbg.png') no-repeat center center/ cover fixed;
+  
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 5%;
+}
+.pdf{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background: linear-gradient(to right, red, rgba(0, 0, 0, 0.067));
+}
+.pdf:hover{
+    /* box-shadow: rgb(0, 0, 0); */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.067), red);
+
+}
+.card-img-top{
+    height: 400px;
+}
+#basketBall{
+    background-color: rgba(128, 0, 128, 0.4);
+}
+.region{
+    background-color: rgba(128, 0, 128, 0.4);
+    width: 80%;
+    margin: 10%;
+}
+#frameDiv {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    border: solid black 1px;
+    /* background-color: rgb(205, 242, 205); */
+    background-color: rgba(128, 0, 128, 0.4);
+  }
+
+  .ball {
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    offset: path('M 50 45 C 150 -20 250 -20 350 80') 150px auto 45deg;
+    animation: moveImg 4s 1s 10;
+    left: 50px;
+    top: 100px;
+  }
+
+  svg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 50px;
+    top: 100px
+  }
+
+  @keyframes moveImg {
+    100%  { offset-distance: 100%; }
+  }
+.net{
+    width: 170px;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+}
+#viewbutton{
+    background: linear-gradient(to right, rgb(0,0,0,0.067), red);
+}
+#viewbutton:hover{
+    background: linear-gradient(to right, red, rgb(0,0,0,0.067));
+}
+
