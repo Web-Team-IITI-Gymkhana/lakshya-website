@@ -20,14 +20,14 @@ nav.sticky-nav {
     background: linear-gradient(to right,#800080,#5D3FD3);
 }
 
-nav:after {
+/* nav:after {
     content: '';
     clear: both;
     display: table;
-}
+} */
 
 nav .logo {
-    width: 50%;
+    /* width: 50%; */
     float: left;
     margin-left: 15px;
     display: flex;
@@ -192,6 +192,19 @@ nav .icon {
     [id=bars]:checked+ul {
         display: block;
     }
+}
+
+#nav-register-btn{
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #5D3FD3;
+    border: 3px solid black;
+    font-size: 18px;
+    cursor: pointer;
+}
+#nav-register-btn:hover{
+    background-color: #3300ff;
 }
 
 /* ************************************************* */
