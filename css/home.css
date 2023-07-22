@@ -495,20 +495,220 @@ left:-60%;
   transition-duration: 0.2s;
 }
 .cardd:hover{
-  .card-image{
+  /* .card-image{
       background-image: url('../images/cricket.jpg');
       background-size: cover;
-  }
+  } */
   scale: 1.07;
 }
-.card-image{
+.card-image-athletics{
+  background-image: url('../images/ath1.webp');
+  height: 173px;
+  width: 241px;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-duration: 0.2s;
+}
+.card-image-athletics:hover{
+  animation-name: athletics;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes athletics {
+  0% {background-image: url('../images/ath1.webp');}
+  50% {background-image: url('../images/ath2.jpeg');}
+}
+.card-image-bb{
+  background-image: url('../images/bb1.jpeg');
+  height: 173px;
+  width: 241px;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-duration: 0.2s;
+}
+.card-image-bb:hover{
+  animation-name: bb;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes bb {
+  0% {background-image: url('../images/bb1.jpeg');}
+  50% {background-image: url('../images/bb2.jpg');}
+}
+.card-image-badminton{
+  background-image: url('../images/badminton1.jpeg');
+  height: 173px;
+  width: 241px;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-duration: 0.2s;
+}
+.card-image-badminton:hover{
+  animation-name: badminton;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes badminton {
+  0% {background-image: url('../images/badminton1.jpeg');}
+  50% {background-image: url('../images/badminton2.jpeg');}
+}
+.card-image-chess{
   background-image: url('../images/chess.jpg');
   height: 173px;
   width: 241px;
   border-radius: 10px;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   transition-duration: 0.2s;
+}
+.card-image-chess:hover{
+  animation-name: chess;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes chess {
+  0% {background-image: url('../images/chess.jpg');}
+  50% {background-image: url('../images/chess2.jpeg');}
+}
+.card-image-cricket{
+  background-image: url('../images/cricket.jpg');
+  height: 173px;
+  width: 241px;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-duration: 0.2s;
+}
+.card-image-cricket:hover{
+  animation-name: cricket;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes cricket {
+  0% {background-image: url('../images/cricket.jpg');}
+  50% {background-image: url('../images/cricket1.jpg');}
+}
+.card-image-fb{
+  background-image: url('../images/fb1.jpeg');
+  height: 173px;
+  width: 241px;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-duration: 0.2s;
+}
+.card-image-fb:hover{
+  animation-name: fb;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes fb {
+  0% {background-image: url('../images/fb1.jpeg');}
+  50% {background-image: url('../images/fb2.jpeg');}
+}
+.card-image-lawn{
+  background-image: url('../images/tennis1.jpg');
+  height: 173px;
+  width: 241px;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-duration: 0.2s;
+}
+.card-image-lawn:hover{
+  animation-name: lawn;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes lawn {
+  0% {background-image: url('../images/tennis1.jpg');}
+  50% {background-image: url('../images/tennis2.jpeg');}
+}
+.card-image-squash{
+  background-image: url('../images/squash2.jpeg');
+  height: 173px;
+  width: 241px;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-duration: 0.2s;
+}
+.card-image-squash:hover{
+  animation-name: squash;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes squash {
+  0% {background-image: url('../images/squash2.jpeg');}
+  50% {background-image: url('../images/squash1.jpeg');}
+}
+.card-image-tt{
+  background-image: url('../images/tt1.jpeg');
+  height: 173px;
+  width: 241px;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-duration: 0.2s;
+}
+.card-image-tt:hover{
+  animation-name: tt;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes tt {
+  0% {background-image: url('../images/tt1.jpeg');}
+  50% {background-image: url('../images/tt2.jpeg');}
+}
+.card-image-swimming{
+  background-image: url('../images/swim2.jpg');
+  height: 173px;
+  width: 241px;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-duration: 0.2s;
+}
+.card-image-swimming:hover{
+  animation-name: swim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes swim {
+  0% {background-image: url('../images/swim2.jpg');}
+  50% {background-image: url('../images/swim1.jpg');}
+}
+.card-image-vb{
+  background-image: url('../images/vb2.jpg');
+  height: 173px;
+  width: 241px;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-duration: 0.2s;
+}
+.card-image-vb:hover{
+  animation-name: vb;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes vb {
+  0% {background-image: url('../images/vb2.jpg');}
+  50% {background-image: url('../images/vb1.jpg');}
 }
 .card-name{
   padding: 5px;
