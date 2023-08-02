@@ -7,7 +7,13 @@
 body {
     height: 100vh;
     /* text-align: center; */
-    background: url('../images/badbg.png') no-repeat center center/ cover fixed;
+    /* background: url('../images/badbg.png') no-repeat center center/ cover fixed; */
+    background-image: radial-gradient(rgb(116, 12, 164),rgb(0, 0, 0));
+    /* background: no-repeat center center/cover fixed; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
   
 }
 .heading{
@@ -17,12 +23,13 @@ body {
     align-items: center;
     color: white;
     margin: 5%;
+    margin-top: 12%;
 }
 .pdf{
     display: flex;
     flex-direction: row;
     color: white;
-    background: linear-gradient(to right,rgb(165,42,42,0.8),rgb(255, 165, 0,0.8));
+    background: linear-gradient(to right,rgb(165, 42, 42,0.8),rgb(255, 165, 0,0.8));
 }
 .pdf:hover{
     /* box-shadow: rgb(0, 0, 0); */
@@ -33,12 +40,23 @@ body {
     height: 400px;
 }
 #basketBall{
-    background-color: rgba(128, 0, 128, 0.4);
+    background-color: rgba(42, 15, 42, 0.4);
 }
 .region{
-    background-color: rgba(128, 0, 128, 0.7);
+    /* background-color: rgb(0, 0, 0); */
+    /* background: linear-gradient(to right,rgb(32, 12, 54),rgb(56, 16, 74)); */
+    background: linear-gradient(to right, purple,rgb(87, 13, 151));  
     width: 80%;
-    margin: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+.gradient{
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right,rgb(165, 42, 42,0.8),rgb(255, 165, 0,0.8));
+    border-radius: 10px;
+    border-image-slice: 1;
+    padding: 25px;
 }
 #frameDiv {
     width: 500px;
