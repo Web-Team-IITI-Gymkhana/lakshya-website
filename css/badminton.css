@@ -10,7 +10,6 @@ body {
     /* background: url('../images/badbg.png') no-repeat center center/ cover fixed; */
     background-image: radial-gradient(rgb(116, 12, 164),rgb(0, 0, 0));
     /* background: no-repeat center center/cover fixed; */
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     
