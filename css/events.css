@@ -2,15 +2,9 @@
     height: 74px;
     background: linear-gradient(to right,#800080,#5D3FD3);
 }
-.events-heading{
-    color: #b700ff;
-    text-align: center;
-    font-weight: bold;
-    margin: 10px;
-    font-size: 50px;
-    margin-bottom: 5vh;
-}
 .events{
+    /* background-color: purple; */
+    background: linear-gradient(to right,#800080,#5D3FD3);
     text-align: center;
     display: flex;
     align-items: center;
@@ -18,19 +12,13 @@
     flex-direction: column;
     font-size: 18px;
     font-weight: 500;
-    margin: 20px;
-    border-radius: 10px;
-    padding: 5vh 10px;
-    box-shadow: 0px 0px 5px 5px #BF47CD;
 }
 .table{
     border: 2px solid black;
     padding: 10px;
     width: 80vw;
-    background: linear-gradient(45deg,rgba(222, 150, 230, 0.8), rgba(155, 125, 172, 0.8));
-}
-.date{
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
 }
 table, th, td {
     border: 2px solid black;
@@ -39,29 +27,28 @@ tr{
     background-color: rgba(255, 255, 255, 0.15);
 }
 th{
-    font-family: 'Lumanosimo', cursive;
+    text-shadow: -2px -2px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    /* font-family: 'Lumanosimo', cursive; */
+    font-family: cursive;
     font-size: 22px;
-    color: #76015f !important;
-    padding: 5px;
 }
-td{
+th,td{
     padding: 5px;
-    color: #800080 !important;
+    color: white !important;
 }
 .events h2{
     color: white;
-    text-shadow: -2px -2px 0 #800080, 1px -1px 0 #800080, -1px 1px 0 #800080, 1px 1px 0 #800080;
-    margin-top: 7vh;
-    margin-bottom: 3vh;
+    text-shadow: -2px -2px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin: 5px;
+    border-bottom: 3px solid black;
     border-radius: 5px;
     font-family: cursive;
-    display: block;
 }
-.date h1{
-    display: inline;
-    color: rgb(0 255 108);
+.events h1{
+    color: rgb(255, 255, 255);
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
-    padding: 6px 10px;
+    padding: 6px;
+    margin: 5vh;
     border-radius: 15px;
     border: 3px solid black;
     border-style: dotted;
@@ -76,3 +63,31 @@ td{
     50%   {border-style: solid;}
     75%   {border-style: dashed;}
 }
+
+
+/* @keyframes marching-ants {
+    0% {
+      background-position: 0 0, 50px 100%, 0 50px, 100% 0;
+    }
+    100% {
+      background-position: 50px 0, 0 100%, 0 0, 100% 50px;
+    }
+  }
+  
+  .events h1 {
+    background-image: linear-gradient(90deg, black 50%, transparent 50%), linear-gradient(90deg, black 50%, transparent 50%), linear-gradient(0, black 50%, transparent 50%), linear-gradient(0, black 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 50px 10px, 50px 10px, 10px 50px, 10px 50px;
+    animation: marching-ants 400ms infinite linear;
+  } */
+
+
+th{
+    /* background-color: #800080; */
+    color: white;
+}
+/* tr:nth-child(even){
+    background: linear-gradient(to right,rgb(128,0,128,0.9),rgb(93,63,211,0.9));
+    background-color: rgba(255, 255, 255, 0.17);
+    opacity: 0.9;
+} */
