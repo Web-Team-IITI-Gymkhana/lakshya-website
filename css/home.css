@@ -450,19 +450,30 @@ left:-60%;
 /************************************************/
 /* ================CSS FOR CARDS========== */
 
+.main-cards{
+  margin: 10vh 20px;
+  border-radius: 10px;
+  border: 2px solid #BF47CD;
+  box-shadow: 0px 0px 5px 5px #BF47CD;
+}
+.card-heading{
+  color: #bf00ff;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px;
+  font-size: 50px;
+}
 .cards{
-  /* background: linear-gradient(45deg,rgb(191,71,205), rgb(58,12,85)); */
-  background: linear-gradient(to right, #BF47CD, #3a0c55);
   display: grid;
   grid-template-columns: repeat(4,25%);
   grid-row-gap: 50px;
-  justify-content: space-evenly;
   justify-items: center;
   align-content: space-evenly;
   align-items: center;
-  padding: 20px;
-  color: white;
+  padding: 7vh 20px;
   font-weight: bold;
+  color: #f740f7;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 @media screen and (max-width: 1150px) {
   .cards {
@@ -483,22 +494,17 @@ left:-60%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  justify-content: center;
   padding: 10px;
   border-radius: 10px;
   font-size: 28px;
-  /* background: linear-gradient(45deg,rgb(191,71,205,0.8), rgb(58,12,85,0.8)); */
-  background-color: rgb(77, 13, 99,0.8);
-  background-color: rgba(55, 32, 49, 0.5);
+  background: linear-gradient(45deg,rgba(222, 150, 230, 0.8), rgba(155, 125, 172, 0.8));
   height: 282px;
   width: 260px;
   text-align: center;
   transition-duration: 0.2s;
 }
 .cardd:hover{
-  /* .card-image{
-      background-image: url('../images/cricket.jpg');
-      background-size: cover;
-  } */
   scale: 1.07;
 }
 .card-image-athletics{
@@ -514,6 +520,7 @@ left:-60%;
   animation-name: athletics;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+  /* animation-fill-mode: forwards; */
   animation-timing-function: ease-in-out;
 }
 @keyframes athletics {
@@ -713,24 +720,21 @@ left:-60%;
 .card-name{
   padding: 5px;
   /* font-family: 'Ysabeau SC', sans-serif; */
-  /* font-weight: bolder; */
 }
 .register-btn{
   color: white;
   font-size: 20px;
-  background-color: rgb(7, 72, 235);
+  background-color: rgb(251, 220, 249);
   outline: none;
-  /* border: 3px solid rgb(132, 0, 240); */
   border: none;
   border-radius: 10px;
   padding: 7px;
-  
-  
-  border: 3px solid linear-gradient(#ffffff, #ff0000);
+  color: #dd00ff;
+  font-weight: bold ;
 }
 .register-btn:hover{
-  background-color:  rgb(0, 55, 193);
-  box-shadow: 3px 3px 3px rgb(7, 72, 235);
+  background-color:  rgb(253, 196, 250);
+  box-shadow: 3px 3px 3px rgb(250, 179, 246);
 }
 
 /* ************************************************* */
