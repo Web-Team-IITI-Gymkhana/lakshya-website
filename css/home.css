@@ -718,7 +718,7 @@ left:-60%;
 .register-btn{
   color: white;
   font-size: 20px;
-  background-color: rgb(7, 72, 235);
+  background-color: rgb(195, 0, 255);
   outline: none;
   /* border: 3px solid rgb(132, 0, 240); */
   border: none;
@@ -729,8 +729,8 @@ left:-60%;
   border: 3px solid linear-gradient(#ffffff, #ff0000);
 }
 .register-btn:hover{
-  background-color:  rgb(0, 55, 193);
-  box-shadow: 3px 3px 3px rgb(7, 72, 235);
+  background-color:  rgb(170, 0, 255);
+  box-shadow: 3px 3px 3px rgb(195, 0, 255);
 }
 
 /* ************************************************* */
