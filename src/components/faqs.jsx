@@ -36,9 +36,9 @@ const Faq =()=>{
     }
     const Accordian=(props)=>{
         return (
-            <div>
-                <div onClick={props.toggle} className='cursor-pointer flex item-center  justify-between font-bold m-2 p-2 text-lg'>
-                    <div>
+            <div className=''>
+                <div onClick={props.toggle} className='mb-5 cursor-pointer flex item-center  justify-between font-bold text-lg'>
+                    <div className='font-medium ml-4'>
                         {props.question}
                     </div>
                     <div className='text-[30px]'>
@@ -46,13 +46,13 @@ const Faq =()=>{
                     </div>
                 </div>
                 <Collapse isOpened={props.open}>
-                    <div className='mb-2 p-4'>{props.answer}</div>
+                    <div className='mb-7 ml-4 mt-1 w-[80%]'>{props.answer}</div>
                 </Collapse>
             </div>
         )
     }
     return (
-        <div className='mx-8 my-5 sm:mx-20 sm:my-12'>
+        <div className='w-[80%] mx-auto my-24'>
             <h1 className='text-3xl font-bold mb-7'>Frequently Asked Questions (FAQs)</h1>
             <div>
                 {faqs.map((data,index)=>{
