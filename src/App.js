@@ -5,6 +5,7 @@ import AboutUs from './components/about_us';
 import Grid from './components/grid';
 import Faq from './components/faqs';
 import Footer from './components/footer';
+import Banner from './components/Banner';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Home/>
       <AboutUs/>
       <Grid/>
+      <Banner/>
       <Faq/>
       <Footer/>
     </div>
