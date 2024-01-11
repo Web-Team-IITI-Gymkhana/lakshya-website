@@ -36,6 +36,10 @@ const Banner = () => {
       </div>
 
       {/* <h1 className='text-3xl font-bold'>Our Vision</h1>
+const Banner =()=>{
+    return (
+        <div className='w-[80%] mx-auto'>
+        <h1 className='text-3xl font-bold'>Our Vision</h1>
         <div>
             <div className='flex items-center justify-center my-3 flex-col lg:flex-row justify-between lg:mr-4 text-lg sm:text-xl '>
                 <div className=' w-[100%] mb-8 lg:w-[40%]  lg:mr-4'>  
