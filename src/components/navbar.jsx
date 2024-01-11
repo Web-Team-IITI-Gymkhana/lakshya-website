@@ -7,16 +7,16 @@ const Navbar =()=>{
         setNav(!nav);
     }
     return (
-        <div className='top-0 fixed bg-[#16171c] text-white w-[100%]'>
+        <div className='top-0 fixed bg-[#16171c] text-white w-[100%] z-10'>
             <div className='justify-between lg:items-center font-bold flex'>
                 <div className='hidden justify-between items-center font-bold lg:flex'>
                     <ul className='flex'>
-                        <li className='p-2 m-2 hover:cursor-pointer ml-5'>Home</li>
-                        <li className='p-2 m-2 hover:cursor-pointer'>About Us</li>
-                        <li className='p-2 m-2 hover:cursor-pointer'>Sports</li>
-                        <li className='p-2 m-2 hover:cursor-pointer'>Schedule</li>
-                        <li className='p-2 m-2 hover:cursor-pointer'>Standings</li>
-                        <li className='p-2 m-2 hover:cursor-pointer'>Contact Us</li>
+                        <li className='p-2 m-2 hover:cursor-pointer ml-5 hover:border-b-2'>Home</li>
+                        <li className='p-2 m-2 hover:cursor-pointer hover:border-b-2'>About Us</li>
+                        <li className='p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2'>Sports</li>
+                        <li className='p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2'>Schedule</li>
+                        <li className='p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2'>Standings</li>
+                        <li className='p-2 m-2 hover:cursor-pointer  hover:border-b-2 active:border-b-2'>Contact Us</li>
                     </ul>
                 </div>
                 <div>
