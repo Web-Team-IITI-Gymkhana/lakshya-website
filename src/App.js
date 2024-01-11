@@ -16,7 +16,7 @@ function App() {
       <Grid/>
       <Banner/>
       <Faq/>
-      <Footer/>
+      <Footer/>   
     </div>
   );
 }
