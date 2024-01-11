@@ -35,9 +35,9 @@ const Navbar =()=>{
                     </div>
                 </div>
                 
-                <a href="https://unstop.com/college-fests/lakshya-20-indian-institute-of-technology-iit-indore-147447" target="_blank">
+                {/* <a href="https://unstop.com/college-fests/lakshya-20-indian-institute-of-technology-iit-indore-147447" target="_blank">
                 <button className='text-white  mr-6 px-3 m-3 rounded-2xl bg-blue-500 hover:bg-blue-700 font-bold '>Register</button>
-                </a>
+                </a> */}
             </div>
         </div>
     )

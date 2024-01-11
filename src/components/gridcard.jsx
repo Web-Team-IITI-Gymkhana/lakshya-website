@@ -16,7 +16,7 @@ const Gridcard = (value) => {
             
           }}>
             
-            <h1 className="font-bold text-3xl ml-[50px] mt-[190px] text-white">{value.value.eventname}</h1>
+            <h1 className="font-bold text-3xl ml-[50px] mt-[190px] text-white"></h1>
            
             
 
