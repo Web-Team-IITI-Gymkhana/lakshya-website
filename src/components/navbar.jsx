@@ -8,7 +8,7 @@ const Navbar =()=>{
         setNav(!nav);
     }
     return (
-        <div className='top-0 fixed bg-[#16171c] text-white w-[100%]'>
+        <div className='top-0 fixed bg-[#16171c] text-white w-[100%] z-10'>
             <div className='justify-between lg:items-center font-bold flex'>
                 <div className='hidden justify-between items-center font-bold lg:flex'>
                     <div className='flex'>
