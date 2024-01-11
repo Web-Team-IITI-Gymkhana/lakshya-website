@@ -69,7 +69,7 @@ const Grid = () => {
         
     ];
     return (
-        <div className="w-[90%] lg:w-[80%] bg-[#f7f7f7] mx-auto my-5 p-5 rounded-md">
+        <div className="w-[90%] lg:w-[80%] bg-[#f7f7f7] mx-auto p-5 rounded-md">
             <div className=" text-3xl font-bold p-7 text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center">
                  Unleash the power of Sports
             </div>
