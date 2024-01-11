@@ -3,7 +3,7 @@ import bg from "./Video/bgvideo.mp4"
 
 const Home =()=>{
     return (
-        <div className='mt-[48px]' >
+        <div className='' >
             <video src={bg} autoPlay loop muted className='w-[100%] h-[100%] fit'/>
             <div className=' absolute top-0 w-[100%] flex flex-col place-content-center items-center h-[270px] sm:h-[400px] md:h-[470px] lg:h-[800px]'>
                 <div className='font-bold text-[80px] sm:text-[130px] md:text-[180px] lg:text-[250px] xl:text-[300px] text-white'>Lakshya</div>

@@ -67,7 +67,7 @@ const Footer = () => {
               </a>
             </div>
             <div className="flex">
-              <p className="mr-1 text-white">Address:</p>
+              
               <a
                 href="https://www.google.com/maps/place/Indian+Institute+of+Technology+Indore/@22.5203792,75.9104448,15z/data=!3m1!4b1!4m6!3m5!1s0x3962efcccbce7145:0x784e8cb69818596b!8m2!3d22.5203597!4d75.9207231!16s%2Fm%2F04yf6vy?entry=ttu"
                 target="_blank"

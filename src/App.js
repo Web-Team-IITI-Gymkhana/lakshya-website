@@ -11,12 +11,24 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <Home/>
-      <AboutUs/>
-      <Grid/>
-      <Banner/>
-      <Faq/>
+      <div id="home">
+        <Home/>
+      </div>
+      <div id="about_us" className='pt-24'>
+        <AboutUs/>
+      </div>
+      <div id="sports" className='py-5'>
+        <Grid/>
+      </div>
+      <div id="our_vision" className='pt-24'>
+        <Banner/>
+      </div>
+      <div id="faqs" className='py-16'>
+        <Faq/>
+      </div>
+      <div id="contact_us">
       <Footer/>
+      </div>
     </div>
   );
 }
