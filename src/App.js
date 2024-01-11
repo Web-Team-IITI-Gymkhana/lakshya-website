@@ -6,17 +6,28 @@ import Grid from './components/grid';
 import Faq from './components/faqs';
 import Footer from './components/footer';
 import Banner from './components/Banner';
-
 function App() {
   return (
     <div>
       <Navbar/>
-      <Home/>
-      <AboutUs/>
-      <Grid/>
-      <Banner/>
-      <Faq/>
+      <div id="home">
+        <Home/>
+      </div>
+      <div id="about_us">
+        <AboutUs/>
+      </div>
+      <div id="sports">
+        <Grid/>
+      </div>
+      <div id="our_vision">
+        <Banner/>
+      </div>
+      <div id="faqs">
+        <Faq/>
+      </div>
+      <div id="contact_us">
       <Footer/>
+      </div>
     </div>
   );
 }

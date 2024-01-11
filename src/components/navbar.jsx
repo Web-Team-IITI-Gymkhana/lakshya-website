@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import {AiOutlineClose,AiOutlineMenu} from 'react-icons/ai'
+import { Link } from 'react-scroll';
 
 const Navbar =()=>{
     const [nav,setNav]=useState(false);
@@ -10,14 +11,14 @@ const Navbar =()=>{
         <div className='top-0 fixed bg-[#16171c] text-white w-[100%]'>
             <div className='justify-between lg:items-center font-bold flex'>
                 <div className='hidden justify-between items-center font-bold lg:flex'>
-                    <ul className='flex'>
-                        <li className='p-2 m-2 hover:cursor-pointer ml-5'>Home</li>
-                        <li className='p-2 m-2 hover:cursor-pointer'>About Us</li>
-                        <li className='p-2 m-2 hover:cursor-pointer'>Sports</li>
-                        <li className='p-2 m-2 hover:cursor-pointer'>Schedule</li>
-                        <li className='p-2 m-2 hover:cursor-pointer'>Standings</li>
-                        <li className='p-2 m-2 hover:cursor-pointer'>Contact Us</li>
-                    </ul>
+                    <div className='flex'>
+                        <Link to="home" smooth={true} className='p-2 m-2 hover:cursor-pointer ml-5'>Home</Link>
+                        <Link to="about_us" smooth={true} className='p-2 m-2 hover:cursor-pointer'>About Us</Link>
+                        <Link to="sports" smooth={true} className='p-2 m-2 hover:cursor-pointer'>Sports</Link>
+                        <Link to="our_vision" smooth={true} className='p-2 m-2 hover:cursor-pointer'>Our Vision</Link>
+                        <Link to="faqs" smooth={true} className='p-2 m-2 hover:cursor-pointer'>FAQs</Link>
+                        <Link to="contact_us" smooth={true} className='p-2 m-2 hover:cursor-pointer'>Contact Us</Link>
+                    </div>
                 </div>
                 <div>
                     <div onClick={handleNav} className='sm:flex lg:hidden'>
