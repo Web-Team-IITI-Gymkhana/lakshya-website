@@ -12,12 +12,12 @@ const Navbar =()=>{
             <div className='justify-between lg:items-center font-bold flex'>
                 <div className='hidden justify-between items-center font-bold lg:flex'>
                     <div className='flex'>
-                        <Link to="home" smooth={true} className='p-2 m-2 hover:cursor-pointer ml-5'>Home</Link>
-                        <Link to="about_us" smooth={true} className='p-2 m-2 hover:cursor-pointer'>About Us</Link>
-                        <Link to="sports" smooth={true} className='p-2 m-2 hover:cursor-pointer'>Sports</Link>
-                        <Link to="our_vision" smooth={true} className='p-2 m-2 hover:cursor-pointer'>Our Vision</Link>
-                        <Link to="faqs" smooth={true} className='p-2 m-2 hover:cursor-pointer'>FAQs</Link>
-                        <Link to="contact_us" smooth={true} className='p-2 m-2 hover:cursor-pointer'>Contact Us</Link>
+                        <Link to="home" smooth={true} className='p-2 m-2 hover:cursor-pointer ml-5 hover:border-b-2'>Home</Link>
+                        <Link to="about_us" smooth={true} className='p-2 m-2 hover:cursor-pointer hover:border-b-2'>About Us</Link>
+                        <Link to="sports" smooth={true} className='p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2'>Sports</Link>
+                        <Link to="our_vision" smooth={true} className='p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2'>Our Vision</Link>
+                        <Link to="faqs" smooth={true} className='p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2'>FAQs</Link>
+                        <Link to="contact_us" smooth={true} className='p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2'>Contact Us</Link>
                     </div>
                 </div>
                 <div>
@@ -25,14 +25,14 @@ const Navbar =()=>{
                         {nav ? <AiOutlineClose className='mt-2 ml-2' size={25}/> : <AiOutlineMenu className='mt-2 ml-2' size={25}/>}
                     </div>
                     <div className={nav ? 'flex justify-between font-bold lg:hidden flex-col' : 'hidden'}>
-                        <ul className='flex-col'>
-                            <li className='p-2 m-2 hover:cursor-pointer'>Home</li>
-                            <li className='p-2 m-2 hover:cursor-pointer'>About Us</li>
-                            <li className='p-2 m-2 hover:cursor-pointer'>Sports</li>
-                            <li className='p-2 m-2 hover:cursor-pointer'>Schedule</li>
-                            <li className='p-2 m-2 hover:cursor-pointer'>Standings</li>
-                            <li className='p-2 m-2 hover:cursor-pointer'>Contact Us</li>
-                        </ul>
+                        <div className='flex-col'>
+                            <Link to="home" smooth={true} className='p-2 m-2 hover:cursor-pointer hover:border-b-2'>Home</Link>
+                            <Link to="about_us" smooth={true} className='p-2 m-2 hover:cursor-pointer hover:border-b-2'>About Us</Link>
+                            <Link to="sports" smooth={true} className='p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2'>Sports</Link>
+                            <Link to="our_vision" smooth={true} className='p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2'>Our Vision</Link>
+                            <Link to="faqs" smooth={true} className='p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2'>FAQs</Link>
+                            <Link to="contact_us" smooth={true} className='p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2'>Contact Us</Link>
+                        </div>
                     </div>
                 </div>
                 

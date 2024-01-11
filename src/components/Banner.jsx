@@ -3,7 +3,7 @@ import bg from "./img/bg4.png"
 
 const Banner =()=>{
     return (
-        <div className='w-[80%] mx-auto my-24'>
+        <div className='w-[80%] mx-auto'>
         <h1 className='text-3xl font-bold'>Our Vision</h1>
         <div>
             <div className='flex items-center justify-center my-3 flex-col lg:flex-row justify-between lg:mr-4 text-lg sm:text-xl '>

@@ -3,7 +3,7 @@ import image from "./img/sport-edit.png";
 
 const AboutUs =()=>{
     return (
-        <div className='w-[80%] mx-auto my-24'>
+        <div className='w-[80%] mx-auto'>
             <h1 className='text-3xl font-bold'>About Us</h1>
             {/* <div className=" text-3xl font-bold text-2xl sm:text-3xl md:text-4xl lg:text-4xl ">
                 About Us</div> */}
