@@ -88,24 +88,28 @@ const Footer = () => {
 
               <a
                 href="/"
+                target="_blank"
                 className="text-white transition-colors duration-300 hover:text-white"
               >
                 <FaYoutube/>
               </a>
               <a
-                href="/"
+                href="https://in.linkedin.com/in/lakshya-iit-indore-4129082a0"
+                target="_blank"
                 className="text-white transition-colors duration-300 hover:text-white"
               >
                 <FaLinkedin/>
               </a>
               <a
-                href="/"
+                href="https://www.instagram.com/lakshya_iiti/"
+                target="_blank"
                 className="text-white transition-colors duration-300 hover:text-white"
               >
                 <FaInstagram/>
               </a>
               <a
-                href="/"
+                href="https://www.facebook.com/people/Lakshya-IIT-Indore/100078324459448/"
+                target="_blank"
                 className="text-white transition-colors duration-300 hover:text-white"
               >
                 <FaFacebook/>
