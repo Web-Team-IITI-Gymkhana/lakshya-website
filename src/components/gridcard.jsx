@@ -8,7 +8,7 @@ const Gridcard = (value) => {
     console.log(value.value.eventname)
    
     return (
-        <div className="w-[200px] h-[250px] border-2 m-2 bg-cover"
+        <div className="w-[20vh] h-[25vh] md:w-[25vh] md:h-[30vh] border-2 m-2 mb-6 bg-cover"
         style={{ 
             backgroundImage: `url(${value.value.eventimg})`,
             backgroundRepeat: 'no-repeat',
@@ -16,7 +16,6 @@ const Gridcard = (value) => {
             
           }}>
             
-            <h1 className="font-bold text-3xl ml-[50px] mt-[190px] text-white">{value.value.eventname}</h1>
            
             
 
