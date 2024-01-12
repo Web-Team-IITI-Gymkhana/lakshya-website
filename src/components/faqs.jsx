@@ -52,7 +52,7 @@ const Faq =()=>{
         )
     }
     return (
-        <div className='w-[80%] mx-auto my-24'>
+        <div className='w-[80%] mx-auto'>
             <h1 className='text-3xl font-bold mb-7'>Frequently Asked Questions (FAQs)</h1>
             <div>
                 {faqs.map((data,index)=>{
