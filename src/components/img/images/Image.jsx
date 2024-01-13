@@ -10,5 +10,7 @@ import vollyball from "./9.png";
 import badminton from "./10.png";
 import prizepool from "./11.png";
 import back from "./12.png";
+import logo from "./logo.png";
 
-export {cricket,basketball,lawnTennis,chess,tableTennis,football,swimming,squash,vollyball,badminton,prizepool,back};
+
+export {cricket,basketball,lawnTennis,chess,tableTennis,football,swimming,squash,vollyball,badminton,prizepool,back,logo};

@@ -1,18 +1,20 @@
 import React from "react";
 import {FaYoutube,FaLinkedin,FaInstagram,FaFacebook} from 'react-icons/fa'
+// import logo from "img\images\logo_dark_without_bg (2).png"
+import { logo } from "./img/images/Image";
 
 const Footer = () => {
     return (
       <div className="px-4 pt-16 mx-auto sm:max-w-full md:max-w-full lg:max-w-screen-full md:px-24 lg:px-8 bg-black text-white">
         <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="sm:col-span-2">
+          <div className="sm:col-span-2" >
             <a
               href="/"
               aria-label="Go home"
               title="Lakshya"
-              className="inline-flex items-center"
+              className="inline-flex items-center justify-center"
             >
-              <svg
+              {/* <svg
                 className="w-8 text-white"
                 viewBox="0 0 24 24"
                 strokeLinejoin="round"
@@ -26,10 +28,21 @@ const Footer = () => {
                 <rect x="3" y="17" width="7" height="6" />
                 <rect x="14" y="1" width="7" height="6" />
                 <rect x="14" y="11" width="7" height="12" />
-              </svg>
-              <span className="ml-2 text-xl font-bold tracking-wide text-white uppercase">
+              </svg> */}
+
+              <div className="w-[15vh] h-[15vh] md:w-[20vh] md:h-[20vh] bg-cover scale-150 mx-4"
+                style={{ 
+                  backgroundImage: `url(${logo})`,
+                  backgroundRepeat: 'no-repeat',
+      
+                  
+                }}
+              >
+
+              </div>
+              {/* <span className="ml-2 text-xl font-bold tracking-wide text-white uppercase">
                 Lakshya
-              </span>
+              </span> */}
             </a>
             <div className="mt-6 lg:max-w-md">
               <p className="text-sm text-white">
@@ -88,24 +101,32 @@ const Footer = () => {
 
               <a
                 href="/"
+                target="_blank"
+                // rel="noreferrer"
                 className="text-white transition-colors duration-300 hover:text-white"
               >
                 <FaYoutube/>
               </a>
               <a
-                href="/"
+                href="https://in.linkedin.com/in/lakshya-iit-indore-4129082a0"
+                target="_blank"
+                rel="noreferrer"
                 className="text-white transition-colors duration-300 hover:text-white"
               >
                 <FaLinkedin/>
               </a>
               <a
-                href="/"
+                href="https://www.instagram.com/lakshya_iiti/"
+                target="_blank"
+                rel="noreferrer"
                 className="text-white transition-colors duration-300 hover:text-white"
               >
                 <FaInstagram/>
               </a>
               <a
-                href="/"
+                href="https://www.facebook.com/people/Lakshya-IIT-Indore/100078324459448/"
+                target="_blank"
+                rel="noreferrer"
                 className="text-white transition-colors duration-300 hover:text-white"
               >
                 <FaFacebook/>
@@ -121,7 +142,7 @@ const Footer = () => {
           <p className="text-sm text-white">
             © Copyright 2023 Lakshya IIT Indore. All rights reserved.
           </p>
-          <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
+          {/* <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>
               <a
                 href="/"
@@ -145,8 +166,8 @@ const Footer = () => {
               >
                 Terms &amp; Conditions
               </a>
-            </li>
-          </ul>
+            </li> */}
+          {/* </ul> */}
         </div>
       </div>
     );
