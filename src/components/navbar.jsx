@@ -76,8 +76,9 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="home"
+                    onClick={handleNav}
                     smooth={true}
-                    className="p-2 m-2 hover:cursor-pointer hover:border-b-2"
+                    className="m-7 hover:cursor-pointer hover:border-b-2"
                   >
                     Home
                   </Link>
@@ -85,8 +86,9 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="about_us"
+                    onClick={handleNav}
                     smooth={true}
-                    className="p-2 m-2 hover:cursor-pointer hover:border-b-2"
+                    className="m-7 hover:cursor-pointer hover:border-b-2"
                   >
                     About Us
                   </Link>
@@ -94,8 +96,9 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="sports"
+                    onClick={handleNav}
                     smooth={true}
-                    className="p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2"
+                    className="m-7 hover:cursor-pointer hover:border-b-2"
                   >
                     Sports
                   </Link>
@@ -103,8 +106,9 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="our_vision"
+                    onClick={handleNav}
                     smooth={true}
-                    className="p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2"
+                    className="m-7 hover:cursor-pointer hover:border-b-2 "
                   >
                     Our Vision
                   </Link>
@@ -112,8 +116,9 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="faqs"
+                    onClick={handleNav}
                     smooth={true}
-                    className="p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2"
+                    className="m-7 hover:cursor-pointer hover:border-b-2"
                   >
                     FAQs
                   </Link>
@@ -121,8 +126,9 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="contact_us"
+                    onClick={handleNav}
                     smooth={true}
-                    className="p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2"
+                    className="m-7 hover:cursor-pointer hover:border-b-2 "
                   >
                     Contact Us
                   </Link>

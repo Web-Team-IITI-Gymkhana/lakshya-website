@@ -1,7 +1,6 @@
 import React from "react";
-import pit from "./img/image.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
+// import { Carousel } from "react-responsive-carousel";
 import Gridcard from './gridcard';
 import criimg from './img/cricket.jpeg';
 import {cricket,basketball,lawnTennis,chess,tableTennis,football,swimming,squash,vollyball,badminton,prizepool,back} from './img/images/Image'
