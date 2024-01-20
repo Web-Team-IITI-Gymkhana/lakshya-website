@@ -44,7 +44,8 @@ const Grid = () => {
         {
             eventname: "Cricket",
             eventimg: cricket,
-            eventurl: "https://unstop.com/events/mens-cricket-tournament-lakshya-20-iit-indore-794546",
+            // eventurl: "https://unstop.com/events/mens-cricket-tournament-lakshya-20-iit-indore-794546",
+            eventurl:"https://forms.gle/jse25bUykvrQ2Fd26",
             rules: ['Each team will have minimum of 11+5 players','The format of the game will be round robin','All matches are played in T20 format'],
             fees: "₹4000 per team",
             prize: '₹40000',
@@ -53,7 +54,8 @@ const Grid = () => {
         {
             eventname: "Basketball",
             eventimg: basketball,
-            eventurl: "https://unstop.com/events/mens-cricket-tournament-lakshya-20-iit-indore-794546",
+            // eventurl: "https://unstop.com/events/mens-cricket-tournament-lakshya-20-iit-indore-794546",
+            eventurl:"https://forms.gle/jse25bUykvrQ2Fd26",
             rules: ['Each team will have maximum of 12 players','The format of the game will be group cum knockout'],
             fees: `₹3000 (mens's) and ₹2500 (women's) per team`,
             prize: '₹45000',
@@ -62,7 +64,8 @@ const Grid = () => {
         {
             eventname: "Lawn Tennis",
             eventimg: lawnTennis,
-            eventurl: "https://unstop.com/events/mens-cricket-tournament-lakshya-20-iit-indore-794546",
+            // eventurl: "https://unstop.com/events/mens-cricket-tournament-lakshya-20-iit-indore-794546",
+            eventurl:"https://forms.gle/jse25bUykvrQ2Fd26",
             rules: ["There are going to be 3 categories:Men's single, Men's double, Women's single",'The format of the game will be knockout', 'This will be open tournment'],
             fees: "₹300 (men's single), ₹600 (men's double) and ₹250 (women's single)",
             prize: '₹25000',
@@ -71,7 +74,8 @@ const Grid = () => {
         {
             eventname: "Chess",
             eventimg: chess,
-            eventurl: "https://unstop.com/events/mens-cricket-tournament-lakshya-20-iit-indore-794546",
+            // eventurl: "https://unstop.com/events/mens-cricket-tournament-lakshya-20-iit-indore-794546",
+            eventurl:"https://forms.gle/jse25bUykvrQ2Fd26",
             rules: ["Individual format(both men's and women's","League stage with two format:5+2(Blitz) and 2+1(Bullet)" ,'The tournament will be Swiss Tournment'],
             fees: "₹100 (per participant per format)",
             prize: '₹10000',
@@ -80,7 +84,8 @@ const Grid = () => {
         {
             eventname: "Table Tennis",
             eventimg: tableTennis,
-            eventurl: "https://unstop.com/events/mens-cricket-tournament-lakshya-20-iit-indore-794546",
+            // eventurl: "https://unstop.com/events/mens-cricket-tournament-lakshya-20-iit-indore-794546",
+            eventurl:"https://forms.gle/jse25bUykvrQ2Fd26",
             rules: ["There are going to be 3 categories:Men's single, Men's double, Women's single",'The format of the game will be knockout', 'This will be open tournment'],
             fees: "₹300 (men's single), ₹600 (men's double) and ₹250 (women's single)",
             prize: '₹40000',
@@ -89,7 +94,8 @@ const Grid = () => {
         {
             eventname: "Football",
             eventimg: football,
-            eventurl: "https://unstop.com/events/mens-cricket-tournament-lakshya-20-iit-indore-794546",
+            // eventurl: "https://unstop.com/events/mens-cricket-tournament-lakshya-20-iit-indore-794546",
+            eventurl:"https://forms.gle/jse25bUykvrQ2Fd26",
             rules: ['Each team will have minimum of 11+5 players',['The format of the game will be round robin']],
             fees: "₹4000",
             prize: '₹40000',
@@ -98,7 +104,8 @@ const Grid = () => {
         {
             eventname: "Swimming",
             eventimg: swimming,
-            eventurl: "https://unstop.com/events/mens-cricket-tournament-lakshya-20-iit-indore-794546",
+            // eventurl: "https://unstop.com/events/mens-cricket-tournament-lakshya-20-iit-indore-794546",
+            eventurl:"https://forms.gle/jse25bUykvrQ2Fd26",
             rules: ['Event:50m freestyle, 100m freestyle, 50m breaststroke','It will be open tournment'],
             fees: "₹300 (mens's) and ₹250 (women's)",
             prize: '₹20000',
@@ -107,7 +114,8 @@ const Grid = () => {
         {
             eventname: "Squash",
             eventimg: squash,
-            eventurl: "https://unstop.com/events/mens-cricket-tournament-lakshya-20-iit-indore-794546",
+            // eventurl: "https://unstop.com/events/mens-cricket-tournament-lakshya-20-iit-indore-794546",
+            eventurl:"https://forms.gle/jse25bUykvrQ2Fd26",
             rules: ["There are going to be only Men's singles",'The format of the game will be knockout', 'This will be open tournment'],
             fees: "₹300 (per participant)",
             prize: '₹15000',
@@ -116,7 +124,8 @@ const Grid = () => {
         {
             eventname: "Vollyball",
             eventimg: vollyball,
-            eventurl: "https://unstop.com/events/mens-cricket-tournament-lakshya-20-iit-indore-794546",
+            // eventurl: "https://unstop.com/events/mens-cricket-tournament-lakshya-20-iit-indore-794546",
+            eventurl:"https://forms.gle/jse25bUykvrQ2Fd26",
             rules: ['Each team will have maximum of 12 players','The format of the game will be group cum knockout'],
             fees: "₹3000 (mens's) and ₹2500(women's) per team",
             prize: '₹45000',
@@ -125,7 +134,8 @@ const Grid = () => {
         {
             eventname: "Badminton",
             eventimg: badminton,
-            eventurl: "https://unstop.com/events/mens-cricket-tournament-lakshya-20-iit-indore-794546",
+            // eventurl: "https://unstop.com/events/mens-cricket-tournament-lakshya-20-iit-indore-794546",
+            eventurl:"https://forms.gle/jse25bUykvrQ2Fd26",
             rules: ["There are going to be 3 categories:Men's single, Men's double, Women's single",'The format of the game will be knockout', 'This will be open tournment'],
             fees: "₹300 (men's single), ₹600 (men's double) and ₹250 (women's single)",
             prize: "₹25000",
