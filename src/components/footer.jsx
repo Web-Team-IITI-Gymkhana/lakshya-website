@@ -99,14 +99,14 @@ const Footer = () => {
             </span>
             <div className="flex items-center mt-1 space-x-3">
 
-              <a
+              {/* <a
                 href="/"
                 target="_blank"
                 // rel="noreferrer"
                 className="text-white transition-colors duration-300 hover:text-white"
               >
                 <FaYoutube/>
-              </a>
+              </a> */}
               <a
                 href="https://in.linkedin.com/in/lakshya-iit-indore-4129082a0"
                 target="_blank"

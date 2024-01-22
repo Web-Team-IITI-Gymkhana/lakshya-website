@@ -20,10 +20,6 @@ const Faq =()=>{
         {
             question:"How can I register for Lakshya?",
             answer:"Registration details and procedures will be provided on the official Lakshya website closer to the event date. Keep an eye on the website and official social media channels for updates."
-        },
-        {
-            question:"How can I register for Lakshya?",
-            answer:"Registration details and procedures will be provided on the official Lakshya website closer to the event date. Keep an eye on the website and official social media channels for updates."
         }
     ]
     const [open,setOpen]=useState(null);

@@ -1,6 +1,7 @@
 import React from 'react';
 import image from "./img/sport-edit.png";
-import { Link } from "react-scroll";
+import schedule from "./pdf/sample.pdf";
+// import { Link } from "react-scroll";
 
 const AboutUs =()=>{
     return (
@@ -22,11 +23,14 @@ const AboutUs =()=>{
                     <a href="https://forms.gle/jse25bUykvrQ2Fd26" target='blank'>
                         <button className='text-white my-3 mx-3 px-4 py-2 rounded-xl bg-blue-500 hover:bg-blue-700 font-bold'>Register</button>
                     </a>
-                    <Link 
+                    <a href={schedule} download="schedule.pdf">
+                        <button className='text-white my-3 mx-3 px-4 py-2 rounded-xl bg-blue-500 hover:bg-blue-700 font-bold'>Schedule</button>
+                    </a>
+                    {/* <Link 
                         to="contact_us"
                         smooth={true}>
                         <button className='text-white my-3 mx-3 px-4 py-2 rounded-xl bg-blue-500 hover:bg-blue-700 font-bold'>Contact Us</button>
-                    </Link>
+                    </Link> */}
                 </div>
                         
                     </div>

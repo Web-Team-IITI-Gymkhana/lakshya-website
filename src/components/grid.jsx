@@ -241,7 +241,7 @@ const Grid = () => {
                         <div className="flex sm:flex-row flex-col gap-4">
                             
                             <div className="col col-2 flex justify-start sm:p-4 ">
-                                <div className="font-bold italic text-left">Rules:</div>
+                                <div className="font-bold text-left">Rules:</div>
                             </div>
                             <div className="col">
                                 <div className='flex flex-col'>{modal.rules.map((data)=>(<li>{data}</li>))}</div>
@@ -249,7 +249,7 @@ const Grid = () => {
                         </div>
                         <div className="flex sm:flex-row flex-col">
                             <div className="col flex justify-start items-center py-1 sm:p-4">
-                                <div className="font-bold italic text-left">Registration fees:</div>
+                                <div className="font-bold text-left">Registration fees:</div>
                             </div>
                             <div className="col">
                                 <div className='flex flex-row text-bold justify-start items-center p-1 sm:py-4'>{modal.fees}</div>
@@ -257,7 +257,7 @@ const Grid = () => {
                         </div>
                         <div className="flex flex-row ">
                             <div className="col flex justify-start items-center py-1 sm:p-4">
-                                <div className="font-bold italic">Prize Pool:</div>
+                                <div className="font-bold">Prize Pool:</div>
                             </div>
                             <div className="col">
                                 <div className='flex flex-row text-bold justify-start items-center p-1 sm:p-4'>{modal.prize}</div>
@@ -265,7 +265,7 @@ const Grid = () => {
                         </div>
                         <div className="flex sm:flex-row flex-col">
                             <div className="col flex justify-start items-center sm:p-4">
-                                <div className="font-bold italic">Contact:</div>
+                                <div className="font-bold">Contact:</div>
                             </div>
                             <div className="col-8">
                                 <div className='flex flex-col text-bold justify-start p-1 sm:p-4'>{modal.contact.map((data)=>(<li>{data}</li>))}</div>
