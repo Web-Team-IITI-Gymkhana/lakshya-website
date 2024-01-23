@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+// import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import { Link } from "react-scroll";
+import schedule from "./pdf/sample.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -54,14 +56,16 @@ const Navbar = () => {
             >
               Contact Us
             </Link>
+            <a href={schedule} download="schedule.pdf" className="p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2">Schedule</a>
+            <a className="p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2 text-gray-500">Result</a>
           </div>
         </div>
         <div>
           <div onClick={handleNav} className="sm:flex lg:hidden">
             {nav ? (
-              <AiOutlineClose className="mt-2 ml-2" size={25} />
+              <AiOutlineClose className="mt-2 ml-2 mb-2" size={25} />
             ) : (
-              <AiOutlineMenu className="mt-2 ml-2" size={25} />
+              <AiOutlineMenu className="mt-2 ml-2 mb-2" size={25} />
             )}
           </div>
           <div
@@ -132,6 +136,13 @@ const Navbar = () => {
                   >
                     Contact Us
                   </Link>
+                  
+                </li>
+                <li>
+                <a href={schedule} download="schedule.pdf" className="m-7 hover:cursor-pointer hover:border-b-2 ">Schedule</a>
+                </li>
+                <li>
+                <a className="m-7  hover:cursor-pointer hover:border-b-2 text-gray-500">Result</a>
                 </li>
               </ul>
         
