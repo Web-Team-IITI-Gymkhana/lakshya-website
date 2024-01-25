@@ -235,7 +235,7 @@ const Grid = () => {
       </Accordion> */}
 
                         {/* </Typography> */}
-                        <div className="font-bold italic text-lg text-center my-2">
+                        <div className="font-bold  text-lg text-center my-2">
                                 {modal.sport}
                             </div>
                         <div className="flex sm:flex-row flex-col gap-4">
