@@ -3,6 +3,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 // import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import { Link } from "react-scroll";
 import schedule from "./pdf/sample.pdf";
+import result from "./pdf/result.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -56,8 +57,8 @@ const Navbar = () => {
             >
               Contact Us
             </Link>
-            <a href={schedule} download="schedule.pdf" className="p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2">Schedule</a>
-            <a className="p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2 text-gray-500">Result</a>
+            <a href={schedule} target="_blank" className="p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2" rel="noreferrer">Schedule</a>
+            <a href={result} target="_blank" className="p-2 m-2 hover:cursor-pointer hover:border-b-2 active:border-b-2" rel="noreferrer">Result</a>
           </div>
         </div>
         <div>
@@ -139,10 +140,10 @@ const Navbar = () => {
                   
                 </li>
                 <li>
-                <a href={schedule} download="schedule.pdf" className="m-7 hover:cursor-pointer hover:border-b-2 ">Schedule</a>
+                <a href={schedule} target="_blank" className="m-7 hover:cursor-pointer hover:border-b-2 " rel="noreferrer">Schedule</a>
                 </li>
                 <li>
-                <a className="m-7  hover:cursor-pointer hover:border-b-2 text-gray-500">Result</a>
+                <a href={result} target= "_blank" className="m-7  hover:cursor-pointer hover:border-b-2" rel="noreferrer">Result</a>
                 </li>
               </ul>
         
